@@ -1,0 +1,1 @@
+EMP - Event Management Platform
