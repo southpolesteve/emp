@@ -18,6 +18,10 @@
 //= require ember-data
 //= require_self
 //= require emp
-Emp = Ember.Application.create();
+Emp = Ember.Application.create({
+  LOG_TRANSITIONS: true,
+  LOG_VIEW_LOOKUPS: true,
+  LOG_ACTIVE_GENERATION: true
+});
 
 //= require_tree .
