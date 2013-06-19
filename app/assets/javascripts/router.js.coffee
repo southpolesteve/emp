@@ -1,3 +1,4 @@
-Emp.Router.map (match)->
-  # match('/').to('index')
-
+Emp.Router.map ->
+  @resource 'events', { path: '/' }, ()->
+    @route 'list'
+    @route 'map'

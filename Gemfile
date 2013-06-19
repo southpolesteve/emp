@@ -23,6 +23,8 @@ gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 gem 'newrelic_rpm'
 gem 'friendly_id'
+gem 'icalendar'
+gem 'httparty'
 
 group :production do
   gem 'unicorn'
