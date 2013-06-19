@@ -158,6 +158,8 @@ GEM
     method_source (0.8.1)
     mime-types (1.23)
     mini_portile (0.5.0)
+    momentjs-rails (2.0.0.2)
+      railties (>= 3.1)
     multi_json (1.7.7)
     multi_xml (0.4.2)
     newrelic_rpm (3.6.3.111)
@@ -282,6 +284,7 @@ DEPENDENCIES
   icalendar
   jquery-rails
   meta_search (>= 1.1.0.pre)
+  momentjs-rails
   newrelic_rpm
   pg
   pry-rails

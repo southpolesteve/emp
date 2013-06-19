@@ -4,3 +4,7 @@ Emp.Event = DS.Model.extend
   startAt: DS.attr('date')
   lat: DS.attr('number')
   lon: DS.attr('number')
+
+  timeUntil: (()->
+    moment(@get('startAt')).fromNow()
+    ).property('startAt')

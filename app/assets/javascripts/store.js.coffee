@@ -3,4 +3,5 @@ DS.RESTAdapter.reopen
 
 Emp.Store = DS.Store.extend
   adapter: DS.RESTAdapter.create()
+  bulkCommit: true
 
